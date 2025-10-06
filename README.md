@@ -4,16 +4,6 @@ Um portfólio moderno e elegante desenvolvido em HTML, CSS e JavaScript, focado 
 
 Deploy: [Link](https://wescaetano.github.io/weslley-portfolio/)
 
-
-## 🎯 Projetos Incluídos
-
-1. **API de E-commerce** - Sistema completo com JWT e pagamentos
-2. **Sistema de Microserviços** - Arquitetura escalável com Kafka
-3. **API de Machine Learning** - Predições em tempo real
-4. **Sistema de Notificações** - Multi-canal em tempo real
-5. **API de Autenticação** - OAuth2 e 2FA
-6. **Sistema de Analytics** - Dashboards em tempo real
-
 ## 🛠️ Tecnologias Utilizadas
 
 ### Frontend
@@ -44,15 +34,5 @@ weslley-portfolio/
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-## 📞 Contato
-
-- **Email**: weslley@example.com
-- **LinkedIn**: [Seu LinkedIn]
-- **GitHub**: [Seu GitHub]
-- **Portfólio**: [URL do seu portfólio]
-
----
-
-⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
 
 
