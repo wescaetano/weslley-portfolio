@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weslley Caetano - Desenvolvedor Backend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="logo">
+                    <img src="assets/wc-logo.png" alt="WC Logo" class="logo-image">
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <button class="language-toggle" id="languageToggle">
+                    <i class="fas fa-globe"></i>
+                    <span>PT</span>
+                </button>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span class="highlight">Weslley Caetano</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Desenvolvedor Backend</h2>
+                    <p class="hero-description">
+                        Especializado em criar soluções robustas e escaláveis para aplicações web e APIs.
+                        Apaixonado por arquitetura de software e boas práticas de desenvolvimento.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <button class="btn btn-secondary" id="resumeBtn">
+                            <i class="fas fa-file-alt"></i>
+                            Currículo
+                        </button>
+                        <a href="#contact" class="btn btn-secondary">Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-animation">
+                        <div class="code-line">
+                            <span class="code-keyword">class</span> <span class="code-class">BackendDeveloper</span> {
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;<span class="code-keyword">constructor</span>() {
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">this</span>.<span class="code-property">skills</span> = [
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'Java'</span>,
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'C#'</span>,
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'.Net'</span>
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'EF Core'</span>
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;];
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;}
+                        </div>
+                        <div class="code-line">}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor backend apaixonado por criar soluções eficientes e escaláveis. 
+                        Com experiência em Java, C# e seus respectivos ecossistemas (Spring Boot e .NET), 
+                        busco sempre aplicar as melhores práticas de desenvolvimento.
+                    </p>
+                    <p>
+                        Minha jornada na programação começou com a curiosidade de entender como as coisas 
+                        funcionam por trás das interfaces. Hoje, especializo-me em desenvolvimento backend 
+                        com foco em APIs RESTful, bancos de dados relacionais e arquitetura de sistemas.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Projetos Concluídos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8+</h3>
+                            <p>Tecnologias Dominadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <img src="assets/perfil-pic.jpg" alt="Weslley Caetano" class="profile-image">
+                        </div>
+                        <h3>Weslley Caetano</h3>
+                        <p>Backend Developer</p>
+                        <div class="profile-links">
+                            <a href="https://github.com/wescaetano" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/weslleycsoares/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_weslleycaetano/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Banco de Dados</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Ferramentas & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle"></h3>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <div class="modal-description">
+                        <h4>Descrição</h4>
+                        <p id="modalDescription"></p>
+                    </div>
+                    <div class="modal-tech">
+                        <h4>Tecnologias</h4>
+                        <div class="tech-tags" id="modalTech"></div>
+                    </div>
+                    <div class="modal-features">
+                        <h4>Funcionalidades</h4>
+                        <ul id="modalFeatures"></ul>
+                    </div>
+                    <div class="modal-links">
+                        <a href="#" class="btn btn-primary" id="modalDemo">Ver Demo</a>
+                        <a href="#" class="btn btn-secondary" id="modalCode">Ver Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Resume -->
+    <div class="modal" id="resumeModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Selecione o Currículo</h3>
+                <button class="modal-close" id="resumeModalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="resume-options">
+                    <div class="resume-option">
+                        <div class="resume-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h4>Currículo em Português</h4>
+                        <p>Versão completa em português brasileiro</p>
+                        <a href="assets/cv-weslley-pt.pdf" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Baixar PDF
+                        </a>
+                    </div>
+                    <div class="resume-option">
+                        <div class="resume-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h4>Resume in English</h4>
+                        <p>Complete version in English</p>
+                        <a href="assets/cv-weslley-en.pdf" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos Conversar!</h3>
+                    <p>
+                        Estou sempre aberto a novas oportunidades e colaborações. 
+                        Se você tem um projeto interessante ou quer discutir tecnologia, 
+                        não hesite em entrar em contato!
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:weslleycaetanosoares@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://github.com/wescaetano" target="_blank" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/weslleycsoares/" target="_blank" class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/_weslleycaetano/" target="_blank" class="contact-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Weslley Caetano</h3>
+                    <p>Desenvolvedor Backend</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/wescaetano" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/weslleycsoares/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_weslleycaetano/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Weslley Caetano. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
