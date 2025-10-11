@@ -1,4 +1,4 @@
-# 🚀 Portfólio Weslley - Desenvolvedor Backend
+# Meu portfólio
 
 Um portfólio moderno e elegante desenvolvido em HTML, CSS e JavaScript, focado em desenvolvimento backend com design responsivo e funcionalidades interativas.
 
